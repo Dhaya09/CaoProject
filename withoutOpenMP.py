@@ -84,7 +84,7 @@ def main():
     plt.show()
 
     # Save Edge Detection Image
-    cv2.imwrite('fingerprint_edges.jpg', edges)
+    cv2.imwrite('edges_openmp.jpg', edges)
     print("Fingerprint edge-detected image saved as fingerprint_edges.jpg")
 
 if __name__ == "__main__":
